@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <a href="JavaScript.html">JavaScript</a>
+
+<script>
+// Variables et Question
+var Prenom = prompt("Quel est votre Prénom?")
+var Milieu = prompt("Quel est votre nom de Milieu?")
+var Famille = prompt("Quel est votre nom de Famille?")
+var tblText = Prenom + Milieu + Famille
+ 
+// Affichage de Noms
+tblText.split(",") + alert("Nom: " + Prenom+" " + Milieu+" "  + Famille+"!")
+ 
+// Initial
+var initial = ""
+initial = initial+Prenom.charAt(0)
+initial = initial+Milieu.charAt(0)
+initial = initial+Famille.charAt(0)
+alert("Initials: " + initial)
+ 
+// Nom d’utilisateur
+var utili = ""
+utili = utili+Prenom.charAt(0)
+utili = utili+Milieu.charAt(0)
+utili = utili+Famille
+var utilimin = utili.toLowerCase();
+alert("Nom d’utilisateur: " + utilimin)
+</script>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
